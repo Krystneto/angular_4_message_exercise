@@ -7,6 +7,7 @@
                 id="firstName" 
                 class="form-control"
                 formControlName="firstName">
+        </div>
         <div class="from-group">
             <label for="lastName">Last Name</label>
             <input 
@@ -14,8 +15,9 @@
                 id="lastName" 
                 class="form-control"
                 formControlName="lastName">
+        </div>
         <div class="from-group">
-            <label for="email">Mail</label>
+            <label for="email">Email</label>
             <input 
                 type="email" 
                 id="email" 
@@ -34,4 +36,5 @@
             class="btn btn-primary" 
             type="submit"
             [disabled]="!myForm.valid">Submit</button>
+    </form>
 </div>
